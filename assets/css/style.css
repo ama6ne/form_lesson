@@ -63,6 +63,7 @@
   border-radius: 3px;
 }
 
+
 .is-fullWidth {
   width: 100%;
 }
@@ -73,8 +74,17 @@
   border-color: #3b5999;
 }
 
+.buttun__facebook:hover {
+  background-color: #344e87;
+  border-color: transparent;
+}
+
 .button__google {
   color: #dd4b39;
+  background-color: #fff;
+}
+
+.button__google:hover {
   background-color: #fff;
 }
 
@@ -109,6 +119,17 @@
   height: 1px;
   width: 100%;
   background-color: #ececec;
+}
+
+.input__init {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
 }
 
 .row {
@@ -149,6 +170,12 @@
   background-color: #fbfbfb;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
+}
+
+.input__area:focus {
+  background-color: #fff;
+  border-color: rgba(59, 133, 133, .4);
+  box-shadow: 0 0 0 2px rgba(1, 191, 189, .1);
 }
 
 .Gender__contents {
@@ -218,10 +245,20 @@
   border-bottom: 2px solid #d9d9d9;
 }
 
+.origin__input:focus {
+  background-color: #fbfbfb;
+  border-color: #d9d9d9;
+  box-shadow: initial;
+}
+
 .Course-option {
   margin-bottom: 10px;
   color: #545658;
   font-size: 16px;
+}
+
+.Course-option:last-child {
+  margin-bottom: 0;
 }
 
 .Course-option-text {
@@ -252,26 +289,41 @@
   margin-top: -12px;
   border-right: 3px solid #01bfbd;
   border-bottom: 3px solid #01bfbd;
- }
+}
 
- .Remarks .input__area {
-   height: 100px;
- }
+.Remarks .input__area {
+  height: 100px;
+}
 
- .Button_submit {
+.Button_submit {
   color: #fff;
   padding: 13px;
   background-color: #01bfbd;
- }
+}
 
- .Agreement {
+.Button_submit:hover {
+  background-color: #01a6a4;
+}
+
+.Button_submit:active {
+  background-color: #fff;
+  color: #01a6a4;
+  border: 1px solid #d9d9d9;
+}
+
+.Agreement {
   font-size: 12px;
   line-height: 16px;
- }
+}
 
- .Link-color {
+.Link-color {
   color: #01a6a4;
- }
+}
+
+.Link-color:hover {
+  color: #01bfbd;
+}
+
  
 /* main */
 
